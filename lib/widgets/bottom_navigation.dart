@@ -2,16 +2,15 @@ import 'package:flutter/material.dart';
 
 import 'circle_icon_button.dart';
 
-class SideNavigation extends StatelessWidget {
-  const SideNavigation({
+class BottomNavigation extends StatelessWidget {
+  const BottomNavigation({
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisAlignment: MainAxisAlignment.center,
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         CircleIconButton(
           onPressed: () {},

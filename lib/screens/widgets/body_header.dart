@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/common/constant.dart';
 
-class BodyHeader extends StatelessWidget {
-  const BodyHeader({
+class HomeBodyHeader extends StatelessWidget {
+  const HomeBodyHeader({
     Key? key,
   }) : super(key: key);
 

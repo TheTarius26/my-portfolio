@@ -12,7 +12,7 @@ class SocialMediaNavigation extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.end,
       children: [
         CircleIconButton(
           icon: const Icon(MdiIcons.github),
@@ -27,9 +27,9 @@ class SocialMediaNavigation extends StatelessWidget {
           onPressed: () {},
         ),
         CircleIconButton(
-          icon: const Icon(MdiIcons.phone),
+          icon: const Icon(Icons.mail_outline),
           onPressed: () {},
-        )
+        ),
       ],
     );
   }
